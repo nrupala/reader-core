@@ -20,7 +20,9 @@ One engine, versioned releases, staged shells. No silent pushes.
    - Chrome Web Store / Edge Add-ons: staged rollout 10% → 50% → 100%,
      minimum 24h bake at each stage.
    - Firefox Add-ons: staged rollout with the same gates.
-   - Safari: last, via App Store Connect phased release.
+   - Safari: dropped (2026-09-28 decision). Apple users are served by the PWA
+     only — no native Safari extension, no Apple Developer membership.
+     The web app ships as an installable PWA covering iPhone / iPad / Mac.
 5. **Rollback** — republish the previous pinned version. Every shell keeps the
    prior release artifact for one full version back.
 
