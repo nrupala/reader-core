@@ -1,5 +1,19 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- `CONTRIBUTING.md`: PR-flow discipline (draft PR → CI green → owner merges;
+  CHANGELOG entry + semver bump per PR; merge commits reference PR numbers;
+  releases tagged `vX.Y.Z`), plus the no-deploy-target note and test
+  instructions.
+
+### Changed
+- Version: 0.1.0 → 0.1.1 (chore: certification PR).
+- `src/reader-core.css` and `test/reader.test.js` now carry the Apache-2.0
+  license header, matching `src/reader-core.js`.
+
+
 ## 0.1.0 — 2026-09-28
 
 Initial extraction. The reader that shipped on onsmartgrid (PR #60 lineage) and
