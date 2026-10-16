@@ -56,7 +56,7 @@ const reader = dom.window.ReaderCore.create({
   excludeSelector: '.code,aside,nav,footer,script,style',
   storageKey: 'test:pos',
 });
-check('engine version', dom.window.ReaderCore.VERSION === '0.1.0', dom.window.ReaderCore.VERSION);
+check('engine version', dom.window.ReaderCore.VERSION === '0.2.0', dom.window.ReaderCore.VERSION);
 check('controls rendered', !!document.querySelector('.rc-row'));
 const sents = document.querySelectorAll('.rc-sent');
 check('sentences wrapped', sents.length >= 6, sents.length + ' spans');
