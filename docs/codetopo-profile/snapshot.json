@@ -1,0 +1,7628 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "code",
+  "profile_version": "1.0.0",
+  "graph_class": "truths",
+  "provenance_summary": {
+    "extracted_truth": 452
+  },
+  "nodes": [
+    {
+      "id": "external::/Bare sentence one/.test",
+      "kind": "external",
+      "label": "/Bare sentence one/.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::/Early paragraph/.test",
+      "kind": "external",
+      "label": "/Early paragraph/.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::/Late paragraph/.test",
+      "kind": "external",
+      "label": "/Late paragraph/.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::/^en/i.test",
+      "kind": "external",
+      "label": "/^en/i.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::/en[-_]us/i.test",
+      "kind": "external",
+      "label": "/en[-_]us/i.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::/google/i.test",
+      "kind": "external",
+      "label": "/google/i.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::/navigation/i.test",
+      "kind": "external",
+      "label": "/navigation/i.test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Array.from",
+      "kind": "external",
+      "label": "Array.from",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Array.from(window.document.querySelectorAll('.rc-sent')).map",
+      "kind": "external",
+      "label": "Array.from(window.document.querySelectorAll('.rc-sent')).map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Array.prototype.forEach.call",
+      "kind": "external",
+      "label": "Array.prototype.forEach.call",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Date.now",
+      "kind": "external",
+      "label": "Date.now",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Error",
+      "kind": "external",
+      "label": "Error",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSDOM",
+      "kind": "external",
+      "label": "JSDOM",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSON.parse",
+      "kind": "external",
+      "label": "JSON.parse",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSON.stringify",
+      "kind": "external",
+      "label": "JSON.stringify",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Math.round",
+      "kind": "external",
+      "label": "Math.round",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Object.defineProperty",
+      "kind": "external",
+      "label": "Object.defineProperty",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::SpeechSynthesisUtterance",
+      "kind": "external",
+      "label": "SpeechSynthesisUtterance",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::String",
+      "kind": "external",
+      "label": "String",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::a.compareDocumentPosition",
+      "kind": "external",
+      "label": "a.compareDocumentPosition",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::blocks.concat",
+      "kind": "external",
+      "label": "blocks.concat",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::blocks.forEach",
+      "kind": "external",
+      "label": "blocks.forEach",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::blocks.push",
+      "kind": "external",
+      "label": "blocks.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::blocks.sort",
+      "kind": "external",
+      "label": "blocks.sort",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::ch.el.classList.add",
+      "kind": "external",
+      "label": "ch.el.classList.add",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::chunks.push",
+      "kind": "external",
+      "label": "chunks.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::clearInterval",
+      "kind": "external",
+      "label": "clearInterval",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::console.error",
+      "kind": "external",
+      "label": "console.error",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::console.log",
+      "kind": "external",
+      "label": "console.log",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.addEventListener",
+      "kind": "external",
+      "label": "document.addEventListener",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.createDocumentFragment",
+      "kind": "external",
+      "label": "document.createDocumentFragment",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.createElement",
+      "kind": "external",
+      "label": "document.createElement",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.createTextNode",
+      "kind": "external",
+      "label": "document.createTextNode",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.createTreeWalker",
+      "kind": "external",
+      "label": "document.createTreeWalker",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.querySelector",
+      "kind": "external",
+      "label": "document.querySelector",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.querySelector('.rc-play').click",
+      "kind": "external",
+      "label": "document.querySelector('.rc-play').click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.querySelector('.rc-play').textContent.includes",
+      "kind": "external",
+      "label": "document.querySelector('.rc-play').textContent.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.querySelectorAll",
+      "kind": "external",
+      "label": "document.querySelectorAll",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::document.removeEventListener",
+      "kind": "external",
+      "label": "document.removeEventListener",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.ReaderCore.create",
+      "kind": "external",
+      "label": "dom.window.ReaderCore.create",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.document.getElementById",
+      "kind": "external",
+      "label": "dom.window.document.getElementById",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.document.querySelector",
+      "kind": "external",
+      "label": "dom.window.document.querySelector",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.document.querySelector('#m4 .rc-play').click",
+      "kind": "external",
+      "label": "dom.window.document.querySelector('#m4 .rc-play').click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.document.querySelector('#m5 .rc-play').click",
+      "kind": "external",
+      "label": "dom.window.document.querySelector('#m5 .rc-play').click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.document.querySelector('.rc-play').click",
+      "kind": "external",
+      "label": "dom.window.document.querySelector('.rc-play').click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.document.querySelectorAll",
+      "kind": "external",
+      "label": "dom.window.document.querySelectorAll",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom.window.localStorage.getItem",
+      "kind": "external",
+      "label": "dom.window.localStorage.getItem",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom3.window.document.querySelector",
+      "kind": "external",
+      "label": "dom3.window.document.querySelector",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dom3.window.eval",
+      "kind": "external",
+      "label": "dom3.window.eval",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::el.closest",
+      "kind": "external",
+      "label": "el.closest",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::el.querySelector",
+      "kind": "external",
+      "label": "el.querySelector",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::el.textContent.replace",
+      "kind": "external",
+      "label": "el.textContent.replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::en.sort",
+      "kind": "external",
+      "label": "en.sort",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::factory",
+      "kind": "external",
+      "label": "factory",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::failures.join",
+      "kind": "external",
+      "label": "failures.join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::failures.push",
+      "kind": "external",
+      "label": "failures.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::frag.appendChild",
+      "kind": "external",
+      "label": "frag.appendChild",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::function (global, factory) {\n  if (typeof module === 'object' && typeof module.exports === 'object') {\n    module.exports = factory();\n  } else {\n    global.ReaderCore = factory();\n  }\n}",
+      "kind": "external",
+      "label": "function (global, factory) {\n  if (typeof module === 'object' && typeof module.exports === 'object') {\n    module.exports = factory();\n  } else {\n    global.ReaderCore = factory();\n  }\n}",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::h.classList.remove",
+      "kind": "external",
+      "label": "h.classList.remove",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::intervals.includes",
+      "kind": "external",
+      "label": "intervals.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::intervals.join",
+      "kind": "external",
+      "label": "intervals.join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::intervals.push",
+      "kind": "external",
+      "label": "intervals.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::localStorage.getItem",
+      "kind": "external",
+      "label": "localStorage.getItem",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::localStorage.removeItem",
+      "kind": "external",
+      "label": "localStorage.removeItem",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::localStorage.setItem",
+      "kind": "external",
+      "label": "localStorage.setItem",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::long.replace",
+      "kind": "external",
+      "label": "long.replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::main().catch",
+      "kind": "external",
+      "label": "main().catch",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::mount.querySelector",
+      "kind": "external",
+      "label": "mount.querySelector",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::n.nodeValue.replace",
+      "kind": "external",
+      "label": "n.nodeValue.replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::n.parentElement.closest",
+      "kind": "external",
+      "label": "n.parentElement.closest",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::navigator.wakeLock.request",
+      "kind": "external",
+      "label": "navigator.wakeLock.request",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::navigator.wakeLock.request('screen').then",
+      "kind": "external",
+      "label": "navigator.wakeLock.request('screen').then",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::nodes.forEach",
+      "kind": "external",
+      "label": "nodes.forEach",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::nodes.push",
+      "kind": "external",
+      "label": "nodes.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::o.contains",
+      "kind": "external",
+      "label": "o.contains",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::options.onReady",
+      "kind": "external",
+      "label": "options.onReady",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::opts.speeds.map",
+      "kind": "external",
+      "label": "opts.speeds.map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::opts.speeds.map(function (s) {\n      return '<option value=\"' + s + '\"' + (s === 1 ? ' selected' : '') + '>' + s + '\\u00D7</option>';\n    }).join",
+      "kind": "external",
+      "label": "opts.speeds.map(function (s) {\n      return '<option value=\"' + s + '\"' + (s === 1 ? ' selected' : '') + '>' + s + '\\u00D7</option>';\n    }).join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::orig",
+      "kind": "external",
+      "label": "orig",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::orphans.filter",
+      "kind": "external",
+      "label": "orphans.filter",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::orphans.push",
+      "kind": "external",
+      "label": "orphans.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::orphans.some",
+      "kind": "external",
+      "label": "orphans.some",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::p.replace",
+      "kind": "external",
+      "label": "p.replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::p.replace(/\\s+/g, ' ').trim",
+      "kind": "external",
+      "label": "p.replace(/\\s+/g, ' ').trim",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::parseFloat",
+      "kind": "external",
+      "label": "parseFloat",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::parts.forEach",
+      "kind": "external",
+      "label": "parts.forEach",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::path.join",
+      "kind": "external",
+      "label": "path.join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pieces.every",
+      "kind": "external",
+      "label": "pieces.every",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pieces.map",
+      "kind": "external",
+      "label": "pieces.map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pieces.map(t => t.length).join",
+      "kind": "external",
+      "label": "pieces.map(t => t.length).join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pieces.map(t => t.trim()).join",
+      "kind": "external",
+      "label": "pieces.map(t => t.trim()).join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pieces.map(t => t.trim()).join(' ').replace",
+      "kind": "external",
+      "label": "pieces.map(t => t.trim()).join(' ').replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::pieces.some",
+      "kind": "external",
+      "label": "pieces.some",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::play.addEventListener",
+      "kind": "external",
+      "label": "play.addEventListener",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::play.click",
+      "kind": "external",
+      "label": "play.click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::play.setAttribute",
+      "kind": "external",
+      "label": "play.setAttribute",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::play.textContent.includes",
+      "kind": "external",
+      "label": "play.textContent.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::play2.click",
+      "kind": "external",
+      "label": "play2.click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::play2.textContent.includes",
+      "kind": "external",
+      "label": "play2.textContent.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.exit",
+      "kind": "external",
+      "label": "process.exit",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::rateSel.addEventListener",
+      "kind": "external",
+      "label": "rateSel.addEventListener",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::reader.getState",
+      "kind": "external",
+      "label": "reader.getState",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::reader2.getState",
+      "kind": "external",
+      "label": "reader2.getState",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::require",
+      "kind": "external",
+      "label": "require",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::root.querySelector",
+      "kind": "external",
+      "label": "root.querySelector",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::root.querySelectorAll",
+      "kind": "external",
+      "label": "root.querySelectorAll",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::sents.forEach",
+      "kind": "external",
+      "label": "sents.forEach",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::sents.push",
+      "kind": "external",
+      "label": "sents.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::setInterval",
+      "kind": "external",
+      "label": "setInterval",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::spoken.map",
+      "kind": "external",
+      "label": "spoken.map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::spoken.map(u => u.text).join",
+      "kind": "external",
+      "label": "spoken.map(u => u.text).join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::spoken.push",
+      "kind": "external",
+      "label": "spoken.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::spoken[0].onend",
+      "kind": "external",
+      "label": "spoken[0].onend",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stopBtn.addEventListener",
+      "kind": "external",
+      "label": "stopBtn.addEventListener",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stopBtn.click",
+      "kind": "external",
+      "label": "stopBtn.click",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::synth.cancel",
+      "kind": "external",
+      "label": "synth.cancel",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::synth.getVoices",
+      "kind": "external",
+      "label": "synth.getVoices",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::synth.pause",
+      "kind": "external",
+      "label": "synth.pause",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::synth.resume",
+      "kind": "external",
+      "label": "synth.resume",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::synth.speak",
+      "kind": "external",
+      "label": "synth.speak",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::t.includes",
+      "kind": "external",
+      "label": "t.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::t.lastIndexOf",
+      "kind": "external",
+      "label": "t.lastIndexOf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::t.slice",
+      "kind": "external",
+      "label": "t.slice",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::t.slice(c + 1).replace",
+      "kind": "external",
+      "label": "t.slice(c + 1).replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::t.trim",
+      "kind": "external",
+      "label": "t.trim",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::texts.some",
+      "kind": "external",
+      "label": "texts.some",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::tn.nodeValue.split",
+      "kind": "external",
+      "label": "tn.nodeValue.split",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::tn.parentNode.replaceChild",
+      "kind": "external",
+      "label": "tn.parentNode.replaceChild",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::u.onend",
+      "kind": "external",
+      "label": "u.onend",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::u.onerror",
+      "kind": "external",
+      "label": "u.onerror",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::vs.filter",
+      "kind": "external",
+      "label": "vs.filter",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::wakeLock.release",
+      "kind": "external",
+      "label": "wakeLock.release",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::walker.nextNode",
+      "kind": "external",
+      "label": "walker.nextNode",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.Event",
+      "kind": "external",
+      "label": "window.Event",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.document.createElement",
+      "kind": "external",
+      "label": "window.document.createElement",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.document.dispatchEvent",
+      "kind": "external",
+      "label": "window.document.dispatchEvent",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.document.getElementById",
+      "kind": "external",
+      "label": "window.document.getElementById",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.document.getElementById('content').appendChild",
+      "kind": "external",
+      "label": "window.document.getElementById('content').appendChild",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.document.querySelectorAll",
+      "kind": "external",
+      "label": "window.document.querySelectorAll",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.eval",
+      "kind": "external",
+      "label": "window.eval",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.localStorage.setItem",
+      "kind": "external",
+      "label": "window.localStorage.setItem",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::window.setInterval.bind",
+      "kind": "external",
+      "label": "window.setInterval.bind",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core",
+      "kind": "package",
+      "label": "reader-core",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/CHANGELOG.md",
+      "kind": "file",
+      "label": "CHANGELOG.md",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/CONTRIBUTING.md",
+      "kind": "file",
+      "label": "CONTRIBUTING.md",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/README.md",
+      "kind": "file",
+      "label": "README.md",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/ROLLOUT.md",
+      "kind": "file",
+      "label": "ROLLOUT.md",
+      "loc": {
+        "file": "ROLLOUT.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/SECURITY.md",
+      "kind": "file",
+      "label": "SECURITY.md",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/TERMS.md",
+      "kind": "file",
+      "label": "TERMS.md",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/TEST-PLAN.md",
+      "kind": "file",
+      "label": "TEST-PLAN.md",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/src/reader-core.js",
+      "kind": "file",
+      "label": "src/reader-core.js",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/test/reader.test.js",
+      "kind": "file",
+      "label": "test/reader.test.js",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::/test/regression.test.js",
+      "kind": "file",
+      "label": "test/regression.test.js",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::CHANGELOG",
+      "kind": "module",
+      "label": "reader-core::CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::CHANGELOG::CHANGELOG",
+      "kind": "doc",
+      "label": "CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::CONTRIBUTING",
+      "kind": "module",
+      "label": "reader-core::CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::CONTRIBUTING::CONTRIBUTING",
+      "kind": "doc",
+      "label": "CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::README",
+      "kind": "module",
+      "label": "reader-core::README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::README::README",
+      "kind": "doc",
+      "label": "README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::ROLLOUT",
+      "kind": "module",
+      "label": "reader-core::ROLLOUT",
+      "loc": {
+        "file": "ROLLOUT.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::ROLLOUT::ROLLOUT",
+      "kind": "doc",
+      "label": "ROLLOUT",
+      "loc": {
+        "file": "ROLLOUT.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::SECURITY",
+      "kind": "module",
+      "label": "reader-core::SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::SECURITY::SECURITY",
+      "kind": "doc",
+      "label": "SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::TERMS",
+      "kind": "module",
+      "label": "reader-core::TERMS",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::TERMS::TERMS",
+      "kind": "doc",
+      "label": "TERMS",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::TEST-PLAN",
+      "kind": "module",
+      "label": "reader-core::TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::TEST-PLAN::TEST-PLAN",
+      "kind": "doc",
+      "label": "TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::src::reader-core",
+      "kind": "module",
+      "label": "reader-core::src::reader-core",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::src::reader-core::auto",
+      "kind": "function",
+      "label": "auto",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 314
+      },
+      "tier": "optional",
+      "defines": [
+        "options",
+        "r"
+      ],
+      "refs": [
+        "document",
+        "create"
+      ],
+      "end_line": 326,
+      "signature": "function auto(options)",
+      "decisions": 5
+    },
+    {
+      "id": "reader-core::src::reader-core::create",
+      "kind": "function",
+      "label": "create",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 41
+      },
+      "tier": "optional",
+      "defines": [
+        "options",
+        "opts",
+        "root",
+        "mount",
+        "synth",
+        "speedOpts",
+        "play",
+        "stopBtn",
+        "rateSel",
+        "fill",
+        "blocks",
+        "orphans",
+        "direct",
+        "r",
+        "sents",
+        "walker",
+        "nodes",
+        "n",
+        "parts",
+        "frag",
+        "sp",
+        "chunks",
+        "t",
+        "size",
+        "c",
+        "voice",
+        "state",
+        "idx",
+        "gen",
+        "keepAlive",
+        "wakeLock"
+      ],
+      "refs": [
+        "k",
+        "DEFAULTS",
+        "j",
+        "document",
+        "Error",
+        "window",
+        "s",
+        "Array",
+        "el",
+        "o",
+        "a",
+        "b",
+        "NodeFilter",
+        "tn",
+        "p",
+        "pickVoice",
+        "e",
+        "JSON",
+        "localStorage",
+        "doPlay",
+        "stopAll",
+        "speak",
+        "onPageHide",
+        "onVisibility",
+        "progress",
+        "setPlay",
+        "VERSION"
+      ],
+      "end_line": 301,
+      "signature": "function create(options)",
+      "decisions": 45
+    },
+    {
+      "id": "reader-core::src::reader-core::create::arm",
+      "kind": "function",
+      "label": "arm",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 201
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "disarm",
+        "setInterval",
+        "state",
+        "synth",
+        "e",
+        "opts"
+      ],
+      "end_line": 206,
+      "signature": "function arm()",
+      "decisions": 3
+    },
+    {
+      "id": "reader-core::src::reader-core::create::clearHi",
+      "kind": "function",
+      "label": "clearHi",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 191
+      },
+      "tier": "optional",
+      "defines": [
+        "h"
+      ],
+      "refs": [
+        "root"
+      ],
+      "end_line": 191,
+      "signature": "function clearHi()",
+      "decisions": 1
+    },
+    {
+      "id": "reader-core::src::reader-core::create::clearPos",
+      "kind": "function",
+      "label": "clearPos",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 179
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "opts",
+        "localStorage",
+        "e"
+      ],
+      "end_line": 182,
+      "signature": "function clearPos()",
+      "decisions": 2
+    },
+    {
+      "id": "reader-core::src::reader-core::create::disarm",
+      "kind": "function",
+      "label": "disarm",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 200
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "keepAlive",
+        "clearInterval"
+      ],
+      "end_line": 200,
+      "signature": "function disarm()",
+      "decisions": 1
+    },
+    {
+      "id": "reader-core::src::reader-core::create::doPlay",
+      "kind": "function",
+      "label": "doPlay",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 246
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "state",
+        "synth",
+        "e",
+        "setPlay",
+        "disarm",
+        "unlock",
+        "arm",
+        "lock",
+        "gen",
+        "speak",
+        "idx"
+      ],
+      "end_line": 252,
+      "signature": "function doPlay()",
+      "decisions": 5
+    },
+    {
+      "id": "reader-core::src::reader-core::create::lock",
+      "kind": "function",
+      "label": "lock",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 210
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "navigator",
+        "s",
+        "e"
+      ],
+      "end_line": 213,
+      "signature": "function lock()",
+      "decisions": 2
+    },
+    {
+      "id": "reader-core::src::reader-core::create::onPageHide",
+      "kind": "function",
+      "label": "onPageHide",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 269
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "stopAll"
+      ],
+      "end_line": 269,
+      "signature": "function onPageHide()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::src::reader-core::create::onVisibility",
+      "kind": "function",
+      "label": "onVisibility",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 274
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "document",
+        "unlock",
+        "disarm",
+        "state",
+        "savePos",
+        "lock",
+        "arm",
+        "synth",
+        "setPlay",
+        "e"
+      ],
+      "end_line": 282,
+      "signature": "function onVisibility()",
+      "decisions": 6
+    },
+    {
+      "id": "reader-core::src::reader-core::create::pickVoice",
+      "kind": "function",
+      "label": "pickVoice",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 148
+      },
+      "tier": "optional",
+      "defines": [
+        "vs",
+        "en",
+        "la",
+        "lb",
+        "ua",
+        "ub",
+        "ga",
+        "gb"
+      ],
+      "refs": [
+        "synth",
+        "v",
+        "a",
+        "b"
+      ],
+      "end_line": 166,
+      "signature": "function pickVoice()",
+      "decisions": 17
+    },
+    {
+      "id": "reader-core::src::reader-core::create::progress",
+      "kind": "function",
+      "label": "progress",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 192
+      },
+      "tier": "optional",
+      "defines": [
+        "i"
+      ],
+      "refs": [
+        "fill",
+        "Math",
+        "chunks"
+      ],
+      "end_line": 192,
+      "signature": "function progress(i)",
+      "decisions": 2
+    },
+    {
+      "id": "reader-core::src::reader-core::create::savePos",
+      "kind": "function",
+      "label": "savePos",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 172
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "opts",
+        "localStorage",
+        "JSON",
+        "idx",
+        "chunks",
+        "Date",
+        "e"
+      ],
+      "end_line": 178,
+      "signature": "function savePos()",
+      "decisions": 2
+    },
+    {
+      "id": "reader-core::src::reader-core::create::setPlay",
+      "kind": "function",
+      "label": "setPlay",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 193
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "state",
+        "opts",
+        "idx",
+        "play",
+        "stopBtn"
+      ],
+      "end_line": 199,
+      "signature": "function setPlay()",
+      "decisions": 5
+    },
+    {
+      "id": "reader-core::src::reader-core::create::speak",
+      "kind": "function",
+      "label": "speak",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 217
+      },
+      "tier": "optional",
+      "defines": [
+        "i",
+        "g",
+        "ch",
+        "u"
+      ],
+      "refs": [
+        "gen",
+        "state",
+        "chunks",
+        "stopAll",
+        "savePos",
+        "clearHi",
+        "SpeechSynthesisUtterance",
+        "voice",
+        "parseFloat",
+        "rateSel",
+        "e",
+        "progress",
+        "speak",
+        "document",
+        "disarm",
+        "unlock",
+        "setPlay",
+        "synth"
+      ],
+      "end_line": 245,
+      "signature": "function speak(i, g)",
+      "decisions": 14
+    },
+    {
+      "id": "reader-core::src::reader-core::create::stopAll",
+      "kind": "function",
+      "label": "stopAll",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 253
+      },
+      "tier": "optional",
+      "defines": [
+        "done"
+      ],
+      "refs": [
+        "gen",
+        "disarm",
+        "unlock",
+        "synth",
+        "e",
+        "clearPos",
+        "clearHi",
+        "progress",
+        "setPlay"
+      ],
+      "end_line": 259,
+      "signature": "function stopAll(done)",
+      "decisions": 2
+    },
+    {
+      "id": "reader-core::src::reader-core::create::unlock",
+      "kind": "function",
+      "label": "unlock",
+      "loc": {
+        "file": "src/reader-core.js",
+        "line": 214
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "wakeLock",
+        "e"
+      ],
+      "end_line": 216,
+      "signature": "function unlock()",
+      "decisions": 2
+    },
+    {
+      "id": "reader-core::test::reader.test",
+      "kind": "module",
+      "label": "reader-core::test::reader.test",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::test::reader.test::before",
+      "kind": "variable",
+      "label": "before",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 110
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "spoken"
+      ],
+      "end_line": 110,
+      "signature": "before"
+    },
+    {
+      "id": "reader-core::test::reader.test::check",
+      "kind": "function",
+      "label": "check",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 25
+      },
+      "tier": "optional",
+      "defines": [
+        "name",
+        "cond",
+        "extra"
+      ],
+      "refs": [
+        "console",
+        "failures"
+      ],
+      "end_line": 28,
+      "signature": "function check(name, cond, extra)",
+      "decisions": 3
+    },
+    {
+      "id": "reader-core::test::reader.test::chunk1",
+      "kind": "variable",
+      "label": "chunk1",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 79
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "spoken"
+      ],
+      "end_line": 79,
+      "signature": "chunk1"
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom",
+      "kind": "function",
+      "label": "chunkDom",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 141
+      },
+      "tier": "optional",
+      "defines": [
+        "id",
+        "text",
+        "spoken",
+        "dom"
+      ],
+      "refs": [
+        "JSDOM"
+      ],
+      "end_line": 159,
+      "signature": "function chunkDom(id, text, spoken)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom::beforeParse",
+      "kind": "function",
+      "label": "beforeParse",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 146
+      },
+      "tier": "optional",
+      "defines": [
+        "window"
+      ],
+      "refs": [
+        "t",
+        "engineSrc"
+      ],
+      "end_line": 153,
+      "signature": "beforeParse(window)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom::beforeParse::cancel",
+      "kind": "function",
+      "label": "cancel",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 150
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 150,
+      "signature": "cancel()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom::beforeParse::getVoices",
+      "kind": "function",
+      "label": "getVoices",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 149
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 149,
+      "signature": "getVoices()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom::beforeParse::pause",
+      "kind": "function",
+      "label": "pause",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 150
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 150,
+      "signature": "pause()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom::beforeParse::resume",
+      "kind": "function",
+      "label": "resume",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 150
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 150,
+      "signature": "resume()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::chunkDom::beforeParse::speak",
+      "kind": "function",
+      "label": "speak",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 150
+      },
+      "tier": "optional",
+      "defines": [
+        "u"
+      ],
+      "refs": [
+        "spoken"
+      ],
+      "end_line": 150,
+      "signature": "speak(u)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::document",
+      "kind": "variable",
+      "label": "document",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 53
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "dom"
+      ],
+      "end_line": 53,
+      "signature": "document"
+    },
+    {
+      "id": "reader-core::test::reader.test::dom",
+      "kind": "variable",
+      "label": "dom",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 166
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "chunkDom",
+        "long",
+        "spoken"
+      ],
+      "end_line": 166,
+      "signature": "dom"
+    },
+    {
+      "id": "reader-core::test::reader.test::drain",
+      "kind": "function",
+      "label": "drain",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 130
+      },
+      "tier": "optional",
+      "defines": [
+        "list",
+        "g",
+        "u",
+        "before"
+      ],
+      "refs": [],
+      "end_line": 139,
+      "signature": "function drain(list)",
+      "decisions": 4
+    },
+    {
+      "id": "reader-core::test::reader.test::engineSrc",
+      "kind": "variable",
+      "label": "engineSrc",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 22
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "fs",
+        "path",
+        "__dirname"
+      ],
+      "end_line": 22,
+      "signature": "engineSrc"
+    },
+    {
+      "id": "reader-core::test::reader.test::failures",
+      "kind": "variable",
+      "label": "failures",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 24
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 24,
+      "signature": "failures"
+    },
+    {
+      "id": "reader-core::test::reader.test::fill",
+      "kind": "variable",
+      "label": "fill",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 68
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "document"
+      ],
+      "end_line": 68,
+      "signature": "fill"
+    },
+    {
+      "id": "reader-core::test::reader.test::fixture",
+      "kind": "variable",
+      "label": "fixture",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 23
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "fs",
+        "path",
+        "__dirname"
+      ],
+      "end_line": 23,
+      "signature": "fixture"
+    },
+    {
+      "id": "reader-core::test::reader.test::fs",
+      "kind": "variable",
+      "label": "fs",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 18
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "require"
+      ],
+      "end_line": 18,
+      "signature": "fs"
+    },
+    {
+      "id": "reader-core::test::reader.test::guard",
+      "kind": "variable",
+      "label": "guard",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 106
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 106,
+      "signature": "guard"
+    },
+    {
+      "id": "reader-core::test::reader.test::long",
+      "kind": "variable",
+      "label": "long",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 163
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 165,
+      "signature": "long"
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom",
+      "kind": "function",
+      "label": "makeDom",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 30
+      },
+      "tier": "optional",
+      "defines": [
+        "seedPos",
+        "spoken",
+        "intervals",
+        "dom"
+      ],
+      "refs": [
+        "JSDOM",
+        "fixture"
+      ],
+      "end_line": 49,
+      "signature": "function makeDom(seedPos)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom::beforeParse",
+      "kind": "function",
+      "label": "beforeParse",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 36
+      },
+      "tier": "optional",
+      "defines": [
+        "window",
+        "orig",
+        "fn",
+        "ms"
+      ],
+      "refs": [
+        "text",
+        "intervals",
+        "seedPos",
+        "JSON",
+        "engineSrc"
+      ],
+      "end_line": 46,
+      "signature": "beforeParse(window)",
+      "decisions": 1
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom::beforeParse::cancel",
+      "kind": "function",
+      "label": "cancel",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 40
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 40,
+      "signature": "cancel()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom::beforeParse::getVoices",
+      "kind": "function",
+      "label": "getVoices",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 39
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 39,
+      "signature": "getVoices()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom::beforeParse::pause",
+      "kind": "function",
+      "label": "pause",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 40
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 40,
+      "signature": "pause()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom::beforeParse::resume",
+      "kind": "function",
+      "label": "resume",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 40
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 40,
+      "signature": "resume()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::makeDom::beforeParse::speak",
+      "kind": "function",
+      "label": "speak",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 40
+      },
+      "tier": "optional",
+      "defines": [
+        "u"
+      ],
+      "refs": [
+        "spoken"
+      ],
+      "end_line": 40,
+      "signature": "speak(u)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::reader.test::navText",
+      "kind": "variable",
+      "label": "navText",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 63
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Array",
+        "sents",
+        "s"
+      ],
+      "end_line": 63,
+      "signature": "navText"
+    },
+    {
+      "id": "reader-core::test::reader.test::path",
+      "kind": "variable",
+      "label": "path",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 19
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "require"
+      ],
+      "end_line": 19,
+      "signature": "path"
+    },
+    {
+      "id": "reader-core::test::reader.test::pieces",
+      "kind": "variable",
+      "label": "pieces",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 169
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "spoken",
+        "u"
+      ],
+      "end_line": 169,
+      "signature": "pieces"
+    },
+    {
+      "id": "reader-core::test::reader.test::play",
+      "kind": "variable",
+      "label": "play",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 66
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "document"
+      ],
+      "end_line": 66,
+      "signature": "play"
+    },
+    {
+      "id": "reader-core::test::reader.test::play2",
+      "kind": "variable",
+      "label": "play2",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 100
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "document"
+      ],
+      "end_line": 100,
+      "signature": "play2"
+    },
+    {
+      "id": "reader-core::test::reader.test::r3",
+      "kind": "variable",
+      "label": "r3",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 122
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "dom3"
+      ],
+      "end_line": 122,
+      "signature": "r3"
+    },
+    {
+      "id": "reader-core::test::reader.test::reader",
+      "kind": "variable",
+      "label": "reader",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 54
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "dom"
+      ],
+      "end_line": 58,
+      "signature": "reader"
+    },
+    {
+      "id": "reader-core::test::reader.test::reader2",
+      "kind": "variable",
+      "label": "reader2",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 95
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "dom"
+      ],
+      "end_line": 99,
+      "signature": "reader2"
+    },
+    {
+      "id": "reader-core::test::reader.test::saved",
+      "kind": "variable",
+      "label": "saved",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 86
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "JSON",
+        "dom"
+      ],
+      "end_line": 86,
+      "signature": "saved"
+    },
+    {
+      "id": "reader-core::test::reader.test::sents",
+      "kind": "variable",
+      "label": "sents",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 61
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "document"
+      ],
+      "end_line": 61,
+      "signature": "sents"
+    },
+    {
+      "id": "reader-core::test::reader.test::size",
+      "kind": "variable",
+      "label": "size",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 170
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "dom"
+      ],
+      "end_line": 170,
+      "signature": "size"
+    },
+    {
+      "id": "reader-core::test::reader.test::spoken",
+      "kind": "variable",
+      "label": "spoken",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 162
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 162,
+      "signature": "spoken"
+    },
+    {
+      "id": "reader-core::test::reader.test::stopBtn",
+      "kind": "variable",
+      "label": "stopBtn",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 67
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "document"
+      ],
+      "end_line": 67,
+      "signature": "stopBtn"
+    },
+    {
+      "id": "reader-core::test::reader.test::u",
+      "kind": "variable",
+      "label": "u",
+      "loc": {
+        "file": "test/reader.test.js",
+        "line": 108
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "spoken"
+      ],
+      "end_line": 108,
+      "signature": "u"
+    },
+    {
+      "id": "reader-core::test::regression.test",
+      "kind": "module",
+      "label": "reader-core::test::regression.test",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "reader-core::test::regression.test::check",
+      "kind": "function",
+      "label": "check",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 37
+      },
+      "tier": "optional",
+      "defines": [
+        "name",
+        "cond",
+        "extra"
+      ],
+      "refs": [
+        "console",
+        "failures"
+      ],
+      "end_line": 40,
+      "signature": "function check(name, cond, extra)",
+      "decisions": 3
+    },
+    {
+      "id": "reader-core::test::regression.test::engineSrc",
+      "kind": "variable",
+      "label": "engineSrc",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 33
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "fs",
+        "process",
+        "path",
+        "__dirname"
+      ],
+      "end_line": 34,
+      "signature": "engineSrc"
+    },
+    {
+      "id": "reader-core::test::regression.test::failures",
+      "kind": "variable",
+      "label": "failures",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 36
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 36,
+      "signature": "failures"
+    },
+    {
+      "id": "reader-core::test::regression.test::fixture",
+      "kind": "variable",
+      "label": "fixture",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 35
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "fs",
+        "path",
+        "__dirname"
+      ],
+      "end_line": 35,
+      "signature": "fixture"
+    },
+    {
+      "id": "reader-core::test::regression.test::fs",
+      "kind": "variable",
+      "label": "fs",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 29
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "require"
+      ],
+      "end_line": 29,
+      "signature": "fs"
+    },
+    {
+      "id": "reader-core::test::regression.test::main",
+      "kind": "function",
+      "label": "main",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 49
+      },
+      "tier": "optional",
+      "defines": [
+        "spoken",
+        "dom",
+        "late",
+        "reader",
+        "texts",
+        "before",
+        "guard",
+        "u",
+        "n",
+        "after",
+        "html",
+        "rec"
+      ],
+      "refs": [
+        "JSDOM",
+        "stubSpeech",
+        "window",
+        "check",
+        "engineSrc",
+        "String",
+        "Array",
+        "s",
+        "t",
+        "fixture",
+        "document",
+        "JSON",
+        "Object",
+        "failures",
+        "console",
+        "process"
+      ],
+      "end_line": 173,
+      "signature": "async function main()",
+      "decisions": 16
+    },
+    {
+      "id": "reader-core::test::regression.test::main::beforeParse",
+      "kind": "function",
+      "label": "beforeParse",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 95
+      },
+      "tier": "optional",
+      "defines": [
+        "window"
+      ],
+      "refs": [
+        "stubSpeech",
+        "spoken",
+        "engineSrc"
+      ],
+      "end_line": 95,
+      "signature": "beforeParse(window)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::regression.test::path",
+      "kind": "variable",
+      "label": "path",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 30
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "require"
+      ],
+      "end_line": 30,
+      "signature": "path"
+    },
+    {
+      "id": "reader-core::test::regression.test::stubSpeech",
+      "kind": "function",
+      "label": "stubSpeech",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 41
+      },
+      "tier": "optional",
+      "defines": [
+        "window",
+        "spoken"
+      ],
+      "refs": [
+        "text"
+      ],
+      "end_line": 48,
+      "signature": "function stubSpeech(window, spoken)",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::regression.test::stubSpeech::cancel",
+      "kind": "function",
+      "label": "cancel",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 46
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 46,
+      "signature": "cancel()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::regression.test::stubSpeech::getVoices",
+      "kind": "function",
+      "label": "getVoices",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 45
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 45,
+      "signature": "getVoices()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::regression.test::stubSpeech::pause",
+      "kind": "function",
+      "label": "pause",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 46
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 46,
+      "signature": "pause()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::regression.test::stubSpeech::resume",
+      "kind": "function",
+      "label": "resume",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 46
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 46,
+      "signature": "resume()",
+      "decisions": 0
+    },
+    {
+      "id": "reader-core::test::regression.test::stubSpeech::speak",
+      "kind": "function",
+      "label": "speak",
+      "loc": {
+        "file": "test/regression.test.js",
+        "line": 46
+      },
+      "tier": "optional",
+      "defines": [
+        "u"
+      ],
+      "refs": [
+        "spoken"
+      ],
+      "end_line": 46,
+      "signature": "speak(u)",
+      "decisions": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "reader-core",
+      "to": "reader-core::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::ROLLOUT",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::TERMS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::src::reader-core",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::test::reader.test",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core",
+      "to": "reader-core::test::regression.test",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/CHANGELOG.md",
+      "to": "reader-core::CHANGELOG::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/CONTRIBUTING.md",
+      "to": "reader-core::CONTRIBUTING::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/README.md",
+      "to": "reader-core::README::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/ROLLOUT.md",
+      "to": "reader-core::ROLLOUT::ROLLOUT",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/SECURITY.md",
+      "to": "reader-core::SECURITY::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/TERMS.md",
+      "to": "reader-core::TERMS::TERMS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/TEST-PLAN.md",
+      "to": "reader-core::TEST-PLAN::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::auto",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::arm",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::clearHi",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::clearPos",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::doPlay",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::lock",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::onPageHide",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::onVisibility",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::pickVoice",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::savePos",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/src/reader-core.js",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::before",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::check",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunk1",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom::beforeParse",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom::beforeParse::cancel",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom::beforeParse::getVoices",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom::beforeParse::pause",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom::beforeParse::resume",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::chunkDom::beforeParse::speak",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::drain",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::engineSrc",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::failures",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::fill",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::fixture",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::fs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::guard",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::long",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom::beforeParse",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom::beforeParse::cancel",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom::beforeParse::getVoices",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom::beforeParse::pause",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom::beforeParse::resume",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::makeDom::beforeParse::speak",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::navText",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::path",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::pieces",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::play",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::play2",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::r3",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::reader",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::reader2",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::saved",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::sents",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::size",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::stopBtn",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/reader.test.js",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::check",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::engineSrc",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::failures",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::fixture",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::fs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::main",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::main::beforeParse",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::path",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::stubSpeech",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::stubSpeech::cancel",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::stubSpeech::getVoices",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::stubSpeech::pause",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::stubSpeech::resume",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::/test/regression.test.js",
+      "to": "reader-core::test::regression.test::stubSpeech::speak",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::CHANGELOG",
+      "to": "reader-core::/CHANGELOG.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::CONTRIBUTING",
+      "to": "reader-core::/CONTRIBUTING.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::README",
+      "to": "reader-core::/README.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::ROLLOUT",
+      "to": "reader-core::/ROLLOUT.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::SECURITY",
+      "to": "reader-core::/SECURITY.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::TERMS",
+      "to": "reader-core::/TERMS.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::TEST-PLAN",
+      "to": "reader-core::/TEST-PLAN.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core",
+      "to": "external::factory",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core",
+      "to": "external::function (global, factory) {\n  if (typeof module === 'object' && typeof module.exports === 'object') {\n    module.exports = factory();\n  } else {\n    global.ReaderCore = factory();\n  }\n}",
+      "kind": "calls",
+      "line": 14,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core",
+      "to": "reader-core::/src/reader-core.js",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::auto",
+      "to": "external::document.addEventListener",
+      "kind": "calls",
+      "line": 317,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::auto",
+      "to": "external::options.onReady",
+      "kind": "calls",
+      "line": 319,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::auto",
+      "to": "reader-core::src::reader-core::create",
+      "kind": "calls",
+      "line": 318,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::auto",
+      "to": "reader-core::src::reader-core::create",
+      "kind": "reads",
+      "line": 314,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::auto",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 314,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::Array.prototype.forEach.call",
+      "kind": "calls",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::Error",
+      "kind": "calls",
+      "line": 48,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::Error",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 184,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::a.compareDocumentPosition",
+      "kind": "calls",
+      "line": 100,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::blocks.concat",
+      "kind": "calls",
+      "line": 98,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::blocks.forEach",
+      "kind": "calls",
+      "line": 106,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::blocks.push",
+      "kind": "calls",
+      "line": 74,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::blocks.sort",
+      "kind": "calls",
+      "line": 99,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::chunks.push",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.addEventListener",
+      "kind": "calls",
+      "line": 270,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.createDocumentFragment",
+      "kind": "calls",
+      "line": 117,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.createElement",
+      "kind": "calls",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.createTextNode",
+      "kind": "calls",
+      "line": 124,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.createTreeWalker",
+      "kind": "calls",
+      "line": 107,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.querySelector",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::document.removeEventListener",
+      "kind": "calls",
+      "line": 296,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::el.closest",
+      "kind": "calls",
+      "line": 73,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::el.querySelector",
+      "kind": "calls",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::el.textContent.replace",
+      "kind": "calls",
+      "line": 74,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::frag.appendChild",
+      "kind": "calls",
+      "line": 123,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::localStorage.getItem",
+      "kind": "calls",
+      "line": 184,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::mount.querySelector",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::n.nodeValue.replace",
+      "kind": "calls",
+      "line": 91,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::n.parentElement.closest",
+      "kind": "calls",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::nodes.forEach",
+      "kind": "calls",
+      "line": 115,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::nodes.push",
+      "kind": "calls",
+      "line": 113,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::o.contains",
+      "kind": "calls",
+      "line": 96,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::opts.speeds.map",
+      "kind": "calls",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::opts.speeds.map(function (s) {\n      return '<option value=\"' + s + '\"' + (s === 1 ? ' selected' : '') + '>' + s + '\\u00D7</option>';\n    }).join",
+      "kind": "calls",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::orphans.filter",
+      "kind": "calls",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::orphans.push",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::orphans.some",
+      "kind": "calls",
+      "line": 96,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::p.replace",
+      "kind": "calls",
+      "line": 119,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::p.replace(/\\s+/g, ' ').trim",
+      "kind": "calls",
+      "line": 125,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::parts.forEach",
+      "kind": "calls",
+      "line": 118,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::play.addEventListener",
+      "kind": "calls",
+      "line": 261,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::rateSel.addEventListener",
+      "kind": "calls",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::root.querySelectorAll",
+      "kind": "calls",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::sents.forEach",
+      "kind": "calls",
+      "line": 134,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::sents.push",
+      "kind": "calls",
+      "line": 125,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::stopBtn.addEventListener",
+      "kind": "calls",
+      "line": 262,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::synth.cancel",
+      "kind": "calls",
+      "line": 266,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::t.lastIndexOf",
+      "kind": "calls",
+      "line": 137,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::t.slice",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::t.slice(c + 1).replace",
+      "kind": "calls",
+      "line": 141,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::tn.nodeValue.split",
+      "kind": "calls",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::tn.parentNode.replaceChild",
+      "kind": "calls",
+      "line": 127,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "external::walker.nextNode",
+      "kind": "calls",
+      "line": 109,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::doPlay",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::onPageHide",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::onVisibility",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::pickVoice",
+      "kind": "calls",
+      "line": 168,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::pickVoice",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "calls",
+      "line": 285,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "calls",
+      "line": 286,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "calls",
+      "line": 267,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "calls",
+      "line": 262,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::test::reader.test::fill",
+      "kind": "defines",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::test::reader.test::play",
+      "kind": "defines",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::test::reader.test::sents",
+      "kind": "defines",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::test::reader.test::size",
+      "kind": "defines",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create",
+      "to": "reader-core::test::reader.test::stopBtn",
+      "kind": "defines",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::arm",
+      "to": "external::setInterval",
+      "kind": "calls",
+      "line": 203,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::arm",
+      "to": "external::setInterval",
+      "kind": "reads",
+      "line": 201,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::arm",
+      "to": "external::synth.resume",
+      "kind": "calls",
+      "line": 204,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::arm",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "calls",
+      "line": 202,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::arm",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "reads",
+      "line": 201,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::clearHi",
+      "to": "external::h.classList.remove",
+      "kind": "calls",
+      "line": 191,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::clearHi",
+      "to": "external::root.querySelector",
+      "kind": "calls",
+      "line": 191,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::clearPos",
+      "to": "external::localStorage.removeItem",
+      "kind": "calls",
+      "line": 181,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::disarm",
+      "to": "external::clearInterval",
+      "kind": "calls",
+      "line": 200,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::disarm",
+      "to": "external::clearInterval",
+      "kind": "reads",
+      "line": 200,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "external::synth.cancel",
+      "kind": "calls",
+      "line": 250,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "external::synth.pause",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "external::synth.resume",
+      "kind": "calls",
+      "line": 248,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::arm",
+      "kind": "calls",
+      "line": 248,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::arm",
+      "kind": "reads",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "reads",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::lock",
+      "kind": "calls",
+      "line": 248,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::lock",
+      "kind": "reads",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "reads",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "calls",
+      "line": 251,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "reads",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::doPlay",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "reads",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::lock",
+      "to": "external::navigator.wakeLock.request",
+      "kind": "calls",
+      "line": 212,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::lock",
+      "to": "external::navigator.wakeLock.request('screen').then",
+      "kind": "calls",
+      "line": 212,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onPageHide",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "calls",
+      "line": 269,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onPageHide",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "reads",
+      "line": 269,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::arm",
+      "kind": "calls",
+      "line": 279,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::arm",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "calls",
+      "line": 276,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::lock",
+      "kind": "calls",
+      "line": 279,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::lock",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::savePos",
+      "kind": "calls",
+      "line": 277,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::savePos",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "calls",
+      "line": 280,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "calls",
+      "line": 276,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::onVisibility",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::pickVoice",
+      "to": "external::/^en/i.test",
+      "kind": "calls",
+      "line": 151,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::pickVoice",
+      "to": "external::/en[-_]us/i.test",
+      "kind": "calls",
+      "line": 160,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::pickVoice",
+      "to": "external::/google/i.test",
+      "kind": "calls",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::pickVoice",
+      "to": "external::en.sort",
+      "kind": "calls",
+      "line": 152,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::pickVoice",
+      "to": "external::synth.getVoices",
+      "kind": "calls",
+      "line": 149,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::pickVoice",
+      "to": "external::vs.filter",
+      "kind": "calls",
+      "line": 151,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::progress",
+      "to": "external::Math.round",
+      "kind": "calls",
+      "line": 192,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::progress",
+      "to": "reader-core::test::reader.test::fill",
+      "kind": "reads",
+      "line": 192,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::savePos",
+      "to": "external::Date.now",
+      "kind": "calls",
+      "line": 177,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::savePos",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 177,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::savePos",
+      "to": "external::localStorage.setItem",
+      "kind": "calls",
+      "line": 177,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::setPlay",
+      "to": "external::play.setAttribute",
+      "kind": "calls",
+      "line": 197,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::setPlay",
+      "to": "reader-core::test::reader.test::play",
+      "kind": "reads",
+      "line": 193,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::setPlay",
+      "to": "reader-core::test::reader.test::stopBtn",
+      "kind": "reads",
+      "line": 193,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "external::SpeechSynthesisUtterance",
+      "kind": "calls",
+      "line": 224,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "external::SpeechSynthesisUtterance",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "external::ch.el.classList.add",
+      "kind": "calls",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "external::parseFloat",
+      "kind": "calls",
+      "line": 226,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "external::parseFloat",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "external::synth.speak",
+      "kind": "calls",
+      "line": 244,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::clearHi",
+      "kind": "calls",
+      "line": 222,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::clearHi",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "calls",
+      "line": 238,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "calls",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::savePos",
+      "kind": "calls",
+      "line": 220,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::savePos",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "calls",
+      "line": 239,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "calls",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::speak",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "calls",
+      "line": 219,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::stopAll",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "calls",
+      "line": 238,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::speak",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "defines",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "external::synth.cancel",
+      "kind": "calls",
+      "line": 255,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::clearHi",
+      "kind": "calls",
+      "line": 258,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::clearHi",
+      "kind": "reads",
+      "line": 253,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::clearPos",
+      "kind": "calls",
+      "line": 257,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::clearPos",
+      "kind": "reads",
+      "line": 253,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "calls",
+      "line": 254,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::disarm",
+      "kind": "reads",
+      "line": 253,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "calls",
+      "line": 258,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::progress",
+      "kind": "reads",
+      "line": 253,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "calls",
+      "line": 258,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::setPlay",
+      "kind": "reads",
+      "line": 253,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "calls",
+      "line": 254,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::stopAll",
+      "to": "reader-core::src::reader-core::create::unlock",
+      "kind": "reads",
+      "line": 253,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::src::reader-core::create::unlock",
+      "to": "external::wakeLock.release",
+      "kind": "calls",
+      "line": 215,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::Date.now",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 196,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::console.log",
+      "kind": "calls",
+      "line": 197,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::document.querySelector",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::document.querySelector('.rc-play').textContent.includes",
+      "kind": "calls",
+      "line": 115,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::document.querySelectorAll",
+      "kind": "calls",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom.window.document.querySelector",
+      "kind": "calls",
+      "line": 167,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom.window.document.querySelector('#m4 .rc-play').click",
+      "kind": "calls",
+      "line": 167,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom.window.document.querySelector('#m5 .rc-play').click",
+      "kind": "calls",
+      "line": 183,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom.window.document.querySelectorAll",
+      "kind": "calls",
+      "line": 177,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom.window.localStorage.getItem",
+      "kind": "calls",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom3.window.document.querySelector",
+      "kind": "calls",
+      "line": 124,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::dom3.window.eval",
+      "kind": "calls",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::failures.join",
+      "kind": "calls",
+      "line": 196,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::intervals.includes",
+      "kind": "calls",
+      "line": 73,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::intervals.join",
+      "kind": "calls",
+      "line": 73,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::long.replace",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::pieces.every",
+      "kind": "calls",
+      "line": 173,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::pieces.map",
+      "kind": "calls",
+      "line": 173,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::pieces.map(t => t.length).join",
+      "kind": "calls",
+      "line": 173,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::pieces.map(t => t.trim()).join",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::pieces.map(t => t.trim()).join(' ').replace",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::pieces.some",
+      "kind": "calls",
+      "line": 187,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::play.click",
+      "kind": "calls",
+      "line": 69,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::play.textContent.includes",
+      "kind": "calls",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::play2.click",
+      "kind": "calls",
+      "line": 102,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::play2.textContent.includes",
+      "kind": "calls",
+      "line": 101,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 196,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::reader.getState",
+      "kind": "calls",
+      "line": 70,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::reader2.getState",
+      "kind": "calls",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::require",
+      "kind": "calls",
+      "line": 20,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::spoken[0].onend",
+      "kind": "calls",
+      "line": 76,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::stopBtn.click",
+      "kind": "calls",
+      "line": 89,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::t.includes",
+      "kind": "calls",
+      "line": 187,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::t.trim",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "external::u.onend",
+      "kind": "calls",
+      "line": 111,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "reader-core::/test/reader.test.js",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "reader-core::test::reader.test::check",
+      "kind": "calls",
+      "line": 59,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "reader-core::test::reader.test::drain",
+      "kind": "calls",
+      "line": 168,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test",
+      "to": "reader-core::test::reader.test::makeDom",
+      "kind": "calls",
+      "line": 52,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::before",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 110,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::check",
+      "to": "external::console.log",
+      "kind": "calls",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::check",
+      "to": "external::failures.push",
+      "kind": "calls",
+      "line": 27,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::check",
+      "to": "reader-core::test::reader.test::failures",
+      "kind": "reads",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunk1",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 79,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom",
+      "to": "external::JSDOM",
+      "kind": "calls",
+      "line": 142,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom",
+      "to": "external::JSDOM",
+      "kind": "reads",
+      "line": 141,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom",
+      "to": "external::dom.window.ReaderCore.create",
+      "kind": "calls",
+      "line": 157,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom",
+      "to": "external::dom.window.document.getElementById",
+      "kind": "calls",
+      "line": 156,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "defines",
+      "line": 141,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "defines",
+      "line": 141,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom::beforeParse",
+      "to": "external::SpeechSynthesisUtterance",
+      "kind": "writes",
+      "line": 146,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom::beforeParse",
+      "to": "external::window.eval",
+      "kind": "calls",
+      "line": 152,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom::beforeParse",
+      "to": "reader-core::test::reader.test::engineSrc",
+      "kind": "reads",
+      "line": 146,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom::beforeParse::speak",
+      "to": "external::spoken.push",
+      "kind": "calls",
+      "line": 150,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom::beforeParse::speak",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 150,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::chunkDom::beforeParse::speak",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "defines",
+      "line": 150,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::document",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "reads",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::dom",
+      "to": "reader-core::test::reader.test::chunkDom",
+      "kind": "reads",
+      "line": 166,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::dom",
+      "to": "reader-core::test::reader.test::long",
+      "kind": "reads",
+      "line": 166,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::dom",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 166,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::drain",
+      "to": "external::u.onend",
+      "kind": "calls",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::drain",
+      "to": "reader-core::test::reader.test::before",
+      "kind": "defines",
+      "line": 130,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::drain",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "defines",
+      "line": 130,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::engineSrc",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 22,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::engineSrc",
+      "to": "reader-core::test::reader.test::fs",
+      "kind": "reads",
+      "line": 22,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::engineSrc",
+      "to": "reader-core::test::reader.test::path",
+      "kind": "reads",
+      "line": 22,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::fill",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 68,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::fixture",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 23,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::fixture",
+      "to": "reader-core::test::reader.test::fs",
+      "kind": "reads",
+      "line": 23,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::fixture",
+      "to": "reader-core::test::reader.test::path",
+      "kind": "reads",
+      "line": 23,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::fs",
+      "to": "external::require",
+      "kind": "reads",
+      "line": 18,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom",
+      "to": "external::JSDOM",
+      "kind": "calls",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom",
+      "to": "external::JSDOM",
+      "kind": "reads",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "defines",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom",
+      "to": "reader-core::test::reader.test::fixture",
+      "kind": "reads",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "defines",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 44,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::SpeechSynthesisUtterance",
+      "kind": "writes",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::intervals.push",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::orig",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::orig",
+      "kind": "defines",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::setInterval",
+      "kind": "writes",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::window.eval",
+      "kind": "calls",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::window.localStorage.setItem",
+      "kind": "calls",
+      "line": 44,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "external::window.setInterval.bind",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse",
+      "to": "reader-core::test::reader.test::engineSrc",
+      "kind": "reads",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse::speak",
+      "to": "external::spoken.push",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse::speak",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::makeDom::beforeParse::speak",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "defines",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::navText",
+      "to": "external::/navigation/i.test",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::navText",
+      "to": "external::Array.from",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::navText",
+      "to": "reader-core::test::reader.test::sents",
+      "kind": "reads",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::path",
+      "to": "external::require",
+      "kind": "reads",
+      "line": 19,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::pieces",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 169,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::pieces",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "reads",
+      "line": 169,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::play",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::play2",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 100,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::reader",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "reads",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::reader2",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "reads",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::saved",
+      "to": "external::dom.window.localStorage.getItem",
+      "kind": "calls",
+      "line": 86,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::saved",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "reads",
+      "line": 86,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::sents",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 61,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::size",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "reads",
+      "line": 170,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::stopBtn",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::reader.test::u",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 108,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test",
+      "to": "external::main().catch",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test",
+      "to": "external::require",
+      "kind": "calls",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test",
+      "to": "reader-core::/test/regression.test.js",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test",
+      "to": "reader-core::test::regression.test::main",
+      "kind": "calls",
+      "line": 175,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::check",
+      "to": "external::console.log",
+      "kind": "calls",
+      "line": 38,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::check",
+      "to": "external::failures.push",
+      "kind": "calls",
+      "line": 39,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::check",
+      "to": "reader-core::test::regression.test::failures",
+      "kind": "reads",
+      "line": 37,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::engineSrc",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::engineSrc",
+      "to": "reader-core::test::regression.test::fs",
+      "kind": "reads",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::engineSrc",
+      "to": "reader-core::test::regression.test::path",
+      "kind": "reads",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::fixture",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::fixture",
+      "to": "reader-core::test::regression.test::fs",
+      "kind": "reads",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::fixture",
+      "to": "reader-core::test::regression.test::path",
+      "kind": "reads",
+      "line": 35,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::fs",
+      "to": "external::require",
+      "kind": "reads",
+      "line": 29,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::/Bare sentence one/.test",
+      "kind": "calls",
+      "line": 142,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::/Early paragraph/.test",
+      "kind": "calls",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::/Late paragraph/.test",
+      "kind": "calls",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::Array.from",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::Array.from(window.document.querySelectorAll('.rc-sent')).map",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::JSDOM",
+      "kind": "calls",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::JSDOM",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 107,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 108,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::Object.defineProperty",
+      "kind": "calls",
+      "line": 109,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::String",
+      "kind": "calls",
+      "line": 82,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::String",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 170,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::console.log",
+      "kind": "calls",
+      "line": 171,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::document.querySelector",
+      "kind": "calls",
+      "line": 103,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::document.querySelector('.rc-play').click",
+      "kind": "calls",
+      "line": 103,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::dom.window.ReaderCore.create",
+      "kind": "calls",
+      "line": 98,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::dom.window.document.querySelector",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::dom.window.document.querySelector('.rc-play').click",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::dom.window.localStorage.getItem",
+      "kind": "calls",
+      "line": 107,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::failures.join",
+      "kind": "calls",
+      "line": 170,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 170,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::reader.getState",
+      "kind": "calls",
+      "line": 104,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::spoken.map",
+      "kind": "calls",
+      "line": 142,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::spoken.map(u => u.text).join",
+      "kind": "calls",
+      "line": 142,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::spoken[0].onend",
+      "kind": "calls",
+      "line": 105,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::texts.some",
+      "kind": "calls",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::u.onerror",
+      "kind": "calls",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.Event",
+      "kind": "calls",
+      "line": 78,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.document.createElement",
+      "kind": "calls",
+      "line": 75,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.document.dispatchEvent",
+      "kind": "calls",
+      "line": 78,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.document.getElementById",
+      "kind": "calls",
+      "line": 77,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.document.getElementById('content').appendChild",
+      "kind": "calls",
+      "line": 77,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.document.querySelectorAll",
+      "kind": "calls",
+      "line": 73,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "external::window.eval",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::before",
+      "kind": "defines",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::document",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::dom",
+      "kind": "defines",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::guard",
+      "kind": "defines",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::reader",
+      "kind": "defines",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "defines",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "defines",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::check",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::check",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::engineSrc",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::failures",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::fixture",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::stubSpeech",
+      "kind": "calls",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main",
+      "to": "reader-core::test::regression.test::stubSpeech",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "external::Date.now",
+      "kind": "calls",
+      "line": 155,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 155,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "external::window.eval",
+      "kind": "calls",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "external::window.localStorage.setItem",
+      "kind": "calls",
+      "line": 155,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "reader-core::test::regression.test::engineSrc",
+      "kind": "reads",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "reader-core::test::regression.test::stubSpeech",
+      "kind": "calls",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::main::beforeParse",
+      "to": "reader-core::test::regression.test::stubSpeech",
+      "kind": "reads",
+      "line": 95,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::path",
+      "to": "external::require",
+      "kind": "reads",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::stubSpeech",
+      "to": "external::SpeechSynthesisUtterance",
+      "kind": "writes",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::stubSpeech",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "defines",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::stubSpeech::speak",
+      "to": "external::spoken.push",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::stubSpeech::speak",
+      "to": "reader-core::test::reader.test::spoken",
+      "kind": "reads",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "reader-core::test::regression.test::stubSpeech::speak",
+      "to": "reader-core::test::reader.test::u",
+      "kind": "defines",
+      "line": 46,
+      "attrs": {}
+    }
+  ],
+  "audit_head": "df490a4ee94e96382ac804088ea57260f993327684105993246414aabead9f9b",
+  "audit_log": [
+    {
+      "seq": 0,
+      "ts": "1795021427",
+      "op": "genesis",
+      "payload": "{}",
+      "prev_hash": "GENESIS",
+      "hash": "f55bb8e4d4eec4eb1b8bc4f98056b5f52cf585687b9cb6eb52f369d6e25f0fb3"
+    },
+    {
+      "seq": 1,
+      "ts": "1795021427",
+      "op": "index_started",
+      "payload": "{\"package\":\"reader-core\",\"repo\":\"/home/hatch/workspace/codetopo-work/PROFILES-GM-GATE-2026-11-18/work/reader-core\"}",
+      "prev_hash": "f55bb8e4d4eec4eb1b8bc4f98056b5f52cf585687b9cb6eb52f369d6e25f0fb3",
+      "hash": "be3bee6abac86f7681c163dbb60420c77cabdc2f421347c13d72584ffca3a50a"
+    },
+    {
+      "seq": 2,
+      "ts": "1795021427",
+      "op": "index_finished",
+      "payload": "{\"diagnostics\":148,\"edges\":452,\"files_failed\":0,\"files_indexed\":10,\"nodes\":242}",
+      "prev_hash": "be3bee6abac86f7681c163dbb60420c77cabdc2f421347c13d72584ffca3a50a",
+      "hash": "df490a4ee94e96382ac804088ea57260f993327684105993246414aabead9f9b"
+    }
+  ],
+  "diagnostics": [
+    {
+      "MultiDefinition": {
+        "symbol": "reader-core::test::reader.test::spoken",
+        "locations": [
+          {
+            "file": "test/reader.test.js",
+            "line": 162
+          },
+          {
+            "file": "test/reader.test.js",
+            "line": 181
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "reader-core::test::reader.test::dom",
+        "locations": [
+          {
+            "file": "test/reader.test.js",
+            "line": 166
+          },
+          {
+            "file": "test/reader.test.js",
+            "line": 182
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "reader-core::test::reader.test::pieces",
+        "locations": [
+          {
+            "file": "test/reader.test.js",
+            "line": 169
+          },
+          {
+            "file": "test/reader.test.js",
+            "line": 185
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "reader-core::test::regression.test::main::beforeParse",
+        "locations": [
+          {
+            "file": "test/regression.test.js",
+            "line": 95
+          },
+          {
+            "file": "test/regression.test.js",
+            "line": 133
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "reader-core::test::regression.test::main::beforeParse",
+        "locations": [
+          {
+            "file": "test/regression.test.js",
+            "line": 95
+          },
+          {
+            "file": "test/regression.test.js",
+            "line": 152
+          }
+        ]
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core",
+        "target": "factory",
+        "line": 16
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core",
+        "target": "function (global, factory) {\n  if (typeof module === 'object' && typeof module.exports === 'object') {\n    module.exports = factory();\n  } else {\n    global.ReaderCore = factory();\n  }\n}",
+        "line": 14
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::auto",
+        "target": "options.onReady",
+        "line": 319
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "Array.prototype.forEach.call",
+        "line": 72
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "Error",
+        "line": 48
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "JSON.parse",
+        "line": 184
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "a.compareDocumentPosition",
+        "line": 100
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "blocks.concat",
+        "line": 98
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "blocks.forEach",
+        "line": 106
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "blocks.push",
+        "line": 74
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "blocks.sort",
+        "line": 99
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "chunks.push",
+        "line": 140
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.addEventListener",
+        "line": 270
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.createDocumentFragment",
+        "line": 117
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.createElement",
+        "line": 120
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.createTextNode",
+        "line": 124
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.createTreeWalker",
+        "line": 107
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.querySelector",
+        "line": 46
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "document.removeEventListener",
+        "line": 296
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "el.closest",
+        "line": 73
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "el.querySelector",
+        "line": 88
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "el.textContent.replace",
+        "line": 74
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "frag.appendChild",
+        "line": 123
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "localStorage.getItem",
+        "line": 184
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "mount.querySelector",
+        "line": 65
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "n.nodeValue.replace",
+        "line": 91
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "n.parentElement.closest",
+        "line": 112
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "nodes.forEach",
+        "line": 115
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "nodes.push",
+        "line": 113
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "o.contains",
+        "line": 96
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "opts.speeds.map",
+        "line": 54
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "opts.speeds.map(function (s) {\n      return '<option value=\"' + s + '\"' + (s === 1 ? ' selected' : '') + '>' + s + '\\u00D7</option>';\n    }).join",
+        "line": 54
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "orphans.filter",
+        "line": 95
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "orphans.push",
+        "line": 93
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "orphans.some",
+        "line": 96
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "p.replace",
+        "line": 119
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "p.replace(/\\s+/g, ' ').trim",
+        "line": 125
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "parts.forEach",
+        "line": 118
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "play.addEventListener",
+        "line": 261
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "rateSel.addEventListener",
+        "line": 263
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "root.querySelectorAll",
+        "line": 72
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "sents.forEach",
+        "line": 134
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "sents.push",
+        "line": 125
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "stopBtn.addEventListener",
+        "line": 262
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "t.lastIndexOf",
+        "line": 137
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "t.slice",
+        "line": 140
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "t.slice(c + 1).replace",
+        "line": 141
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "tn.nodeValue.split",
+        "line": 116
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "tn.parentNode.replaceChild",
+        "line": 127
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create",
+        "target": "walker.nextNode",
+        "line": 109
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::arm",
+        "target": "setInterval",
+        "line": 203
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::arm",
+        "target": "synth.resume",
+        "line": 204
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::clearHi",
+        "target": "h.classList.remove",
+        "line": 191
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::clearHi",
+        "target": "root.querySelector",
+        "line": 191
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::clearPos",
+        "target": "localStorage.removeItem",
+        "line": 181
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::disarm",
+        "target": "clearInterval",
+        "line": 200
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::doPlay",
+        "target": "synth.cancel",
+        "line": 250
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::doPlay",
+        "target": "synth.pause",
+        "line": 247
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::lock",
+        "target": "navigator.wakeLock.request",
+        "line": 212
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::lock",
+        "target": "navigator.wakeLock.request('screen').then",
+        "line": 212
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::pickVoice",
+        "target": "/^en/i.test",
+        "line": 151
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::pickVoice",
+        "target": "/en[-_]us/i.test",
+        "line": 160
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::pickVoice",
+        "target": "/google/i.test",
+        "line": 162
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::pickVoice",
+        "target": "en.sort",
+        "line": 152
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::pickVoice",
+        "target": "synth.getVoices",
+        "line": 149
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::pickVoice",
+        "target": "vs.filter",
+        "line": 151
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::progress",
+        "target": "Math.round",
+        "line": 192
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::savePos",
+        "target": "Date.now",
+        "line": 177
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::savePos",
+        "target": "JSON.stringify",
+        "line": 177
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::savePos",
+        "target": "localStorage.setItem",
+        "line": 177
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::setPlay",
+        "target": "play.setAttribute",
+        "line": 197
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::speak",
+        "target": "SpeechSynthesisUtterance",
+        "line": 224
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::speak",
+        "target": "ch.el.classList.add",
+        "line": 223
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::speak",
+        "target": "parseFloat",
+        "line": 226
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::speak",
+        "target": "synth.speak",
+        "line": 244
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::src::reader-core::create::unlock",
+        "target": "wakeLock.release",
+        "line": 215
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "console.error",
+        "line": 196
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "document.querySelector('.rc-play').textContent.includes",
+        "line": 115
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "document.querySelectorAll",
+        "line": 72
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "dom.window.document.querySelector",
+        "line": 167
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "dom.window.document.querySelector('#m4 .rc-play').click",
+        "line": 167
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "dom.window.document.querySelector('#m5 .rc-play').click",
+        "line": 183
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "dom.window.document.querySelectorAll",
+        "line": 177
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "dom3.window.document.querySelector",
+        "line": 124
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "dom3.window.eval",
+        "line": 121
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "failures.join",
+        "line": 196
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "intervals.includes",
+        "line": 73
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "intervals.join",
+        "line": 73
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "long.replace",
+        "line": 175
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "pieces.every",
+        "line": 173
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "pieces.map",
+        "line": 173
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "pieces.map(t => t.length).join",
+        "line": 173
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "pieces.map(t => t.trim()).join",
+        "line": 175
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "pieces.map(t => t.trim()).join(' ').replace",
+        "line": 175
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "pieces.some",
+        "line": 187
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "play.click",
+        "line": 69
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "play.textContent.includes",
+        "line": 90
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "play2.click",
+        "line": 102
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "play2.textContent.includes",
+        "line": 101
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "process.exit",
+        "line": 196
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "reader.getState",
+        "line": 70
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "reader2.getState",
+        "line": 116
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "require",
+        "line": 20
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "spoken[0].onend",
+        "line": 76
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "stopBtn.click",
+        "line": 89
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "t.includes",
+        "line": 187
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "t.trim",
+        "line": 175
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test",
+        "target": "u.onend",
+        "line": 111
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::check",
+        "target": "console.log",
+        "line": 26
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::check",
+        "target": "failures.push",
+        "line": 27
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::chunkDom",
+        "target": "dom.window.ReaderCore.create",
+        "line": 157
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::chunkDom",
+        "target": "dom.window.document.getElementById",
+        "line": 156
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::engineSrc",
+        "target": "path.join",
+        "line": 22
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom",
+        "target": "JSDOM",
+        "line": 33
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom::beforeParse",
+        "target": "intervals.push",
+        "line": 43
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom::beforeParse",
+        "target": "orig",
+        "line": 43
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom::beforeParse",
+        "target": "window.eval",
+        "line": 45
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom::beforeParse",
+        "target": "window.localStorage.setItem",
+        "line": 44
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom::beforeParse",
+        "target": "window.setInterval.bind",
+        "line": 42
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::makeDom::beforeParse::speak",
+        "target": "spoken.push",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::navText",
+        "target": "/navigation/i.test",
+        "line": 63
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::navText",
+        "target": "Array.from",
+        "line": 63
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::reader.test::saved",
+        "target": "dom.window.localStorage.getItem",
+        "line": 86
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test",
+        "target": "main().catch",
+        "line": 175
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "/Bare sentence one/.test",
+        "line": 142
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "/Early paragraph/.test",
+        "line": 87
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "/Late paragraph/.test",
+        "line": 85
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "Array.from(window.document.querySelectorAll('.rc-sent')).map",
+        "line": 83
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "Object.defineProperty",
+        "line": 109
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "String",
+        "line": 82
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "document.querySelector('.rc-play').click",
+        "line": 103
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "dom.window.document.querySelector('.rc-play').click",
+        "line": 140
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "spoken.map",
+        "line": 142
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "spoken.map(u => u.text).join",
+        "line": 142
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "texts.some",
+        "line": 85
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "u.onerror",
+        "line": 116
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "window.Event",
+        "line": 78
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "window.document.createElement",
+        "line": 75
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "window.document.dispatchEvent",
+        "line": 78
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "window.document.getElementById",
+        "line": 77
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "window.document.getElementById('content').appendChild",
+        "line": 77
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "reader-core::test::regression.test::main",
+        "target": "window.document.querySelectorAll",
+        "line": 73
+      }
+    },
+    {
+      "Cycle": {
+        "edge_kind": "calls",
+        "cycle": [
+          "reader-core::src::reader-core::create::speak"
+        ]
+      }
+    }
+  ]
+}

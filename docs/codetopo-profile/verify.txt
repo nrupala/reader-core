@@ -1,0 +1,3 @@
+audit entries: 3
+chain valid: true
+head: df490a4ee94e96382ac804088ea57260f993327684105993246414aabead9f9b
